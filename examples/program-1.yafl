@@ -1,0 +1,20 @@
+program
+  integer a, b, c;
+start
+  input a;
+  b := 12/a*3 - 4**(-2+2);
+  output -b;
+
+  c := b < 50;
+  output c;
+
+  while (c) {
+    if (c <= 5) {
+      output c+1;
+      c := c+1;
+    }
+    else {
+      c := 0;
+    };
+  };
+finish
